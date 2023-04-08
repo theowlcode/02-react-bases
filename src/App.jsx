@@ -1,12 +1,12 @@
 import "./App.css";
-import { Titulo } from "./components/titulo";
-import { Counter } from "./components/counter";
+import { Form } from "./components/form";
+import { FormV2 } from "./components/formV2";
 
 function App() {
   return (
     <div className="App">
-      {/* <Titulo text="mi titulo" mostrarTexto={true} /> */}
-      <Counter />
+      {/* <Form /> */}
+      <FormV2 />
     </div>
   );
 }
