@@ -9,15 +9,10 @@ const items = [
 ];
 
 export const ItemList = () => {
-  // const a = items.map((item, index) => {
-  //   return index + "-" + item.text;
-  // });
-  // console.log(a);
   return (
     <div>
       {items.map((item, indice) => {
-        console.log(item, indice);
-        return <Item item={item} key={indice} />;
+        return <Item item={item} key={indice} indice={indice} />;
       })}
     </div>
   );
