@@ -1,10 +1,10 @@
 import "./App.css";
-import { ItemList } from "./components/list/itemList";
+import { Colocarbar } from "./components/colorbar/colocarbar";
 
 function App() {
   return (
     <div className="App">
-      <ItemList />
+      <Colocarbar />
     </div>
   );
 }
