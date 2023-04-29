@@ -6,16 +6,16 @@ export const Colocarbar = () => {
 
   console.log("Render");
 
-  // useEffect(() => {
-  //   if (color === "red") {
-  //     alert("Se cambió el color a rojo");
-  //   }
-  //   console.log("Disparando el efecto");
-  // }, [color]);
-
   useEffect(() => {
-    setCounter((prevCounter) => prevCounter + 1);
-  }, [counter]);
+    if (color === "red") {
+      alert("Se cambió el color a rojo");
+    }
+    console.log("Disparando el efecto");
+  }, [color]);
+
+  // useEffect(() => {
+  //   setCounter((prevCounter) => prevCounter + 1);
+  // }, [counter]);
 
   return (
     <div>
