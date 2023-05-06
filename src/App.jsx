@@ -1,10 +1,13 @@
 import "./App.css";
-import { PokemonList } from "./components/pokemon-list/pokemon-list";
+import { RefCounter } from "./components/referencias/ref-counter";
+import { RefElement } from "./components/referencias/ref-Element";
 
 function App() {
   return (
     <div className="App">
-      <PokemonList />
+      <RefCounter />
+      <hr />
+      <RefElement />
     </div>
   );
 }
